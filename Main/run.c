@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "../Functions/create_pwd.h"
+#include "../Functions/file_handling.h"
 
 int main(){
     int length;
@@ -14,4 +15,9 @@ int main(){
     
     srand(time(NULL));
     createPassword(length);
+    char username[12];
+    printf("\nEnter Username: ");
+    scanf("%s",username);
+
+    create_user(username);
 }
