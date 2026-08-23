@@ -5,8 +5,6 @@
 int main(){
     int length;
     int option;
-   // char[20] username;
-    //char[20] password
 
     printf("Hellooo !! welcome to the password vault\n");
     read_File("../Files/Menu.txt");
@@ -29,16 +27,12 @@ int main(){
 
         case 2:
             printf("this is case two");
+            break;
         case 3:
             printf("this is case 3");
+            break;
             
 
     }
 
-
-    char username[12];
-    printf("\nEnter Username: ");
-    scanf("%s",username);
-
-    create_user(username);
 }
