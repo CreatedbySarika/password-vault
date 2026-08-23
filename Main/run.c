@@ -4,7 +4,12 @@
 
 int main(){
     int length;
+   // char[20] username;
+    //char[20] password
+
     printf("Hellooo !! welcome to the password vault\n");
+    read_File("../Files/Menu.txt");
+
     printf("How long do you want the you password is: ");
     scanf("%d",&length);
     while(length<8)
