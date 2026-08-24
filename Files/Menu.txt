@@ -3,5 +3,6 @@
 ==================================================
     [1] Generate a password
     [2] Access your stored password
-    [3] Exit
+    [3] Check Password strength
+    [4] Exit
 ==================================================
